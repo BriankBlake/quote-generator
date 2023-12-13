@@ -52,7 +52,7 @@ body {
     justify-content: space-between;
 }
 
-button {
+.button {
     cursor: pointer;
     font-size: 1.2rem;
     height: 2.5rem;
@@ -96,7 +96,7 @@ button:active {
         0% { transform: rotate(0deg); }
         100% { transform: rotate(360deg); }
       }
-}
+
 
 /* Media Query: Tablet or smaller */
 @media screen and (max-width: 1000px) {
